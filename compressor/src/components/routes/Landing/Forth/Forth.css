@@ -1,0 +1,846 @@
+/* src/components/routes/Landing/Forth/Forth.css */
+
+
+.manufacturing{
+    height: auto;
+    position: relative;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    background-color: rgb(241, 241, 241);
+}
+
+
+.manu-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+}
+
+.manu-heading{
+    color: black;
+}
+
+.manu-left{
+    width: 60%;
+    text-align: left;
+    margin: auto;
+}
+
+.manu-right{
+    width:30%;
+}
+
+
+
+.manu-para{
+    font-size: large;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.livin{
+    color: red;
+}
+
+.livin:hover{
+    color: gray;
+}
+
+.sny155{
+    width: 90%;
+}
+
+/* ********* */
+
+
+.rotatory{
+    height: auto;
+    position: relative;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+
+.rota-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+}
+
+.rota-heading{
+    color: black;
+}
+
+
+.rota-left{
+    width: 30%;
+}
+
+.rota-right{
+    width:60%;
+    text-align: left;
+    margin: auto;
+}
+
+
+
+.rota-body{
+    text-align: left;
+    margin: auto;
+
+}
+
+.rota-para{
+    font-size: large;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.screw{
+    width: 80%;
+}
+
+
+
+/* ******************** */
+
+
+
+.choice{
+    height: auto;
+    position: relative;
+    margin-bottom: 8rem;
+    margin-top: 5rem;
+
+}
+
+
+.choice-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+.choice-left{
+    width: 50%;
+    text-align: left;
+    margin: auto;
+    background-color: darkred;
+    color: white;
+    padding: 1rem;
+}
+
+.choice-right{
+    width:50%;
+}
+
+.choice-subheading{
+    font-size: 1.25rem;
+
+}
+
+.choice-heading{
+    font-size: 1.5rem;
+    margin-bottom: -1rem;
+
+}
+
+
+.choice-para{
+    font-size: large;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: rgb(170, 170, 170);
+
+}
+
+.choices{
+    width: 100%;
+    height: 100%;
+}
+
+/* ********* */
+
+
+.oil-lubri{
+    height: auto;
+    position: relative;
+    margin-bottom: 6rem;
+    margin-top: 4rem;
+}
+
+
+.oil-lubri-container{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+}
+
+.oil-lubri-heading{
+    color: black;
+}
+
+.oil-lubri-left{
+    width: 40%;
+}
+
+.oil-lubri-right{
+    width:60%;
+    text-align: left;
+    margin: auto;
+    margin-right: 5%;
+}
+
+
+
+.oil-lubri-body{
+    text-align: left;
+}
+
+.oil-lubri-para{
+    font-size: large;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.sny1555{
+    width: 100%;
+}
+
+
+/* *********** */
+
+.portable{
+    height: auto;
+    position: relative;
+    margin-bottom: 6rem;
+    margin-top: 4rem;
+}
+
+
+.portable-container{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+}
+
+.portable-heading{
+    color: black;
+}
+
+.portable-left{
+    width: 60%;
+    text-align: left;
+    margin: auto;
+    margin-left: 5%;
+}
+
+.portable-right{
+    width:40%;
+}
+
+
+
+.portable-para{
+    font-size: large;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.portables{
+    width: 100%;
+}
+
+
+/* ********* */
+
+
+.oil-free{
+    height: auto;
+    position: relative;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+
+.oil-free-container{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+}
+
+.oil-free-heading{
+    color:black;
+}
+
+
+
+.oil-free-left{
+    width: 40%;
+}
+
+.oil-free-right{
+    width:60%;
+    text-align: left;
+    margin: auto;
+}
+
+
+
+.oil-free-body{
+    text-align: left;
+    margin: auto;
+
+}
+
+.oil-free-para{
+    font-size: large;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+
+}
+
+.oil-frees{
+    width: 100%;
+}
+
+
+/* *********** */
+
+
+
+.airs{
+    height: auto;
+    position: relative;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+
+.air-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+}
+
+.air-right{
+    width:100%;
+    margin: auto;
+}
+.air{
+    display: none;
+}
+
+.airr{
+    height: auto;
+    width: 95%;
+    margin: auto;
+}
+
+
+
+/* .air-left{
+    width: 30%;
+    text-align: left;
+    margin: auto;
+    background-color: darkred;
+    color: white;
+    padding: 1rem;
+    height: 50vh;
+} */
+
+/* 
+.air-heading{
+    margin-top: 1rem;
+}
+
+.air-body{
+    text-align: left;
+    margin: auto;
+
+} */
+
+/* .air-para{
+    font-size: large;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+} */
+
+
+
+
+
+
+
+/* ********* */
+
+
+.heat{
+    height: auto;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+
+.heat-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+}
+
+.heat-heading{
+    color: black;
+}
+
+.heat-left{
+    width: 30%;
+}
+
+.heat-right{
+    width:60%;
+    text-align: left;
+    margin: auto;
+}
+
+.heat-heading{
+    margin-top: 3rem;
+}
+
+.heat-body{
+    text-align: left;
+    margin: auto;
+
+}
+
+.heat-para{
+    font-size: large;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+
+}
+
+.heating{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+/* *********** */
+
+.industry{
+    height: auto;
+    position: relative;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+
+.industry-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+}
+
+.industry-heading{
+    color:black;
+}
+
+.industry-left{
+    width: 60%;
+    text-align: left;
+    margin: auto;
+}
+
+.industry-right{
+    width:30%;
+}
+
+
+
+.industry-para{
+    font-size: large;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.industry{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* for mobile screens */
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+
+    .manufacturing{
+        height: auto;
+        position: relative;
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+    }
+    
+    
+    .manu-container{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90%;
+        margin: auto;
+    }
+    
+    
+    
+    .manu-left{
+        width: 100%;
+    }
+    
+    .manu-right{
+        width:100%;
+    }
+    
+    .manu-heading{
+        margin-top: 2rem;
+    }
+
+    .sny155{
+        width: 90%;
+    }
+
+    /* ********* */
+
+
+    .rotatory{
+        height: auto;
+        position: relative;
+        margin-bottom: 5rem;
+        margin-top: 8rem;
+    }
+
+
+    .rota-container{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+
+
+
+    .rota-left{
+        width:100%;
+
+    }
+
+    .rota-right{
+        width:100%;
+    }
+
+
+    .sny1555{
+        width: 100%;
+    }
+
+    
+
+    /* ******************** */
+
+
+
+    .choice-container{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90%;
+        margin: auto;
+    }
+
+
+
+    .choice-left{
+        width: 100%;
+    }
+
+    .choice-right{
+        width:100%;
+    }
+    
+
+        
+    /* ********* */
+
+
+
+    .oil-lubri-container{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+
+
+
+    .oil-lubri-left{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .oil-lubri-right{
+        width:100%;
+    }
+
+
+    .oil-lubri-para{
+        font-size: large;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+
+    }
+
+    .sny1555{
+        width: 90%;
+    }
+
+
+    /* ************ */
+    
+    
+    .portable-container{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 6rem;
+    }
+    
+    
+    
+    .portable-left{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .portable-right{
+        width:100%;
+    }
+    
+
+    .portables{
+        width: 100%;
+    }
+
+    /* ********* */
+
+
+
+    .oil-free-container{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+
+
+
+    .oil-free-left{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .oil-free-right{
+        width:100%;
+        margin-top: -1rem;
+    }
+
+
+    .oil-free-para{
+        font-size: large;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+
+    }
+
+    .oil-free{
+        width: 100%;
+    }
+
+    /* ************ */
+
+
+    .airs{
+        width: 100%;
+    }
+
+    .air-container{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: auto;
+        margin-left: 0;
+        margin-top: 5rem;
+    }
+
+    
+    .air-right{
+        width:100%;
+    }
+
+    
+    /* .air{
+        display: none;
+    }
+
+    .airr{
+        height: auto;
+        width: 95%;
+        margin: auto;
+    } */
+
+/* 
+
+    .air-left{
+        width:100%;
+    } */
+
+    /* .air-heading{
+        margin-top: 1rem;
+    }
+
+    .air-body{
+        text-align: left;
+        margin: auto;
+
+    }
+
+    .air-para{
+        font-size: large;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+    } */
+
+    /* .airs{
+        height: auto ;
+    } */
+
+    /* ********* */
+
+
+
+    .heat-container{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 6rem;
+    }
+
+
+
+    .heat-left{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .heat-right{
+        width:100%;
+        margin-top: 1rem;
+    }
+
+
+    .heat-heading{
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+
+    .heat-para{
+        font-size: large;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+
+    }
+
+    .heat{
+        width: 90%;
+    }
+
+    /* ************ */
+    
+    
+    .industry-container{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 6rem;
+    }
+    
+    
+    
+    .industry-left{
+        width: 100%;
+    }
+    
+    .industry-right{
+        width:100%;
+    }
+    
+
+    .sny155{
+        width: 90%;
+        margin: auto;
+    }
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

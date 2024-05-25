@@ -1,0 +1,166 @@
+/* src/components/routes/Products/Products/Products.css */
+
+
+
+.products-main {
+    position: relative;
+    height: 90vh;
+}
+
+.pro-main-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100vw;
+    height: 90vh;
+    z-index: -1;
+    opacity: 0.95;
+    /* background-color: rgb(37, 0, 0); */
+
+}
+
+.bg-pro{
+    width: 100vw;
+    height: 90vh;
+    /* background-color: rgba(37, 0, 0, 0.87); */
+}
+
+.pro-content {
+    position: absolute;
+    left:7.5%;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    z-index: 1; 
+    text-align: center;
+    color: white;
+}
+
+.pro-heading{
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.pro-subheading{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+/* ********* */
+
+.pro-cards{
+    position: relative;
+    height: auto;
+    margin: auto;
+    margin-top: 5rem;
+    width: 90%;
+}
+
+.pro-cardss{
+    background: linear-gradient(to bottom, maroon 45%, rgb(58, 0, 0) 75%);
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.pro-cardss:hover{
+    background: linear-gradient(to top, maroon 45%, rgb(58, 0, 0) 75%);
+    cursor: pointer;
+}
+
+.card-pro{
+    height: 50vh;
+    width: 25vw;
+    margin: auto;
+    margin-top: 2rem;
+
+}
+
+.pro-title{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.pro-para{
+    color: white;
+}
+
+
+
+
+/* for mobile screens */
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+
+    .products-main {
+        height: 60vh;
+    }
+    
+    .pro-main-bg{
+        height: 60vh;
+    }
+
+    .bg-pro{
+        width: 100vw;
+        height: 60vh;
+        margin: auto;
+    }
+
+    .pro-content {
+        left:1%;
+        margin:auto;
+        margin-top: 6rem;
+        z-index: 1; 
+        text-align: center;
+    }
+
+    .pro-heading{
+        font-size: 2.5rem;
+    }
+
+    .pro-subheading{
+        font-size: 1rem;
+    }
+
+    /* ********* */
+
+    .types-heading{
+        width: 95%;
+    }
+    .pro-cards{
+        margin-top: 5rem;
+        width: 90%;
+    }
+
+    .pro-cardss{
+        background: linear-gradient(to bottom, maroon 45%, rgb(58, 0, 0) 75%);
+        margin: auto;
+        margin-bottom: 3rem;
+    }
+
+    .pro-cardss:hover{
+        background: linear-gradient(to top, maroon 45%, rgb(58, 0, 0) 75%);
+        cursor: pointer;
+    }
+
+    .card-pro{
+        height: 35vh;
+        width: 80vw;
+        margin: auto;
+        margin-top: 2rem;
+
+    }
+
+    .pro-title{
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .pro-para{
+        color: white;
+    }
+
+
+
+
+}

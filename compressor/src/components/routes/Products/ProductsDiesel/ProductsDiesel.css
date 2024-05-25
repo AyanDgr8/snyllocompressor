@@ -1,0 +1,142 @@
+/* src/components/routes/Products/ProductsDiesel/ProductsDiesel.css */
+
+
+
+.products-diesel {
+    position: relative;
+    height: 90vh;
+}
+
+.pro-diesel-main-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100vw;
+    height: 90vh;
+    z-index: -1;
+    opacity: 0.95;
+    /* background-color: rgb(37, 0, 0); */
+
+}
+
+.bg-diesel{
+    width: 100vw;
+    height: 90vh;
+    /* background-color: rgba(37, 0, 0, 0.87); */
+}
+
+.pro-diesel-content {
+    position: absolute;
+    left:7.5%;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    z-index: 1; 
+    text-align: center;
+    color: white;
+}
+
+.pro-diesel-heading{
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.pro-diesel-subheading{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/* *********** */
+
+.diesel-types{
+    position: relative;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.types-heading{
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+
+}
+
+.types-types{
+    margin: auto;
+    font-weight: 400;
+    width: 80%;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.types-t-t{
+    margin-bottom: 1rem;
+}
+
+
+
+
+/* for mobile screens */
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+
+    .products-diesel {
+        height: 60vh;
+    }
+    
+    .pro-diesel-main-bg{
+        height: 60vh;
+    }
+
+    .bg-diesel{
+        width: 100vw;
+        height: 60vh;
+        margin: auto;
+    }
+    
+
+    .pro-diesel-content {
+        left:1%;
+        margin:auto;
+        margin-top: 7.5rem;
+        z-index: 1; 
+        text-align: center;
+    }
+
+    .pro-diesel-heading{
+        font-size: 2.5rem;
+    }
+
+    .pro-diesel-subheading{
+        font-size: 1rem;
+    }
+
+
+    /* ********* */
+
+    
+    .types-heading{
+        width: 95%;
+    }
+
+    .applications-heading{
+        width: 95%;
+    }
+
+    .benefits-heading{
+        width: 95%;
+
+    }
+
+    .app-cards{
+        width: 80vw;
+        margin: auto;
+        margin-bottom: 3rem;
+    }
+
+    .air-p{
+        height: 40vh;
+    }
+
+}

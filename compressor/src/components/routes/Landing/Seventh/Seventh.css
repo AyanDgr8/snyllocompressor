@@ -1,0 +1,19 @@
+/* src/components/routes/Landing/Seventh/Seventh.css */
+
+
+.maroon-logo{
+    margin-top: 10%;
+    width:20rem;
+}
+
+.countries{
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+}
+
+.countryy{
+    width:8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 4rem;
+}

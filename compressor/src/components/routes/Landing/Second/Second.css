@@ -1,0 +1,56 @@
+/* src/components/routes/Landing/Second/Second.css */
+
+.four-cards-second{
+    height: auto;
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: -2rem;
+    width:95%;
+
+}
+
+.cardd{
+    width: 18rem;
+    height: 26rem;
+    margin: auto;
+    margin-bottom: 5rem;
+    background-color: #ffffff;
+}
+
+
+.img-icon{
+    width:3rem;
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+    
+}
+
+
+.btns{
+    position: absolute;
+    bottom: 1;
+    background-color: #c20000;
+    color: white;
+}
+
+.btns:hover{
+    background-color: #FE0000;
+    color: white;
+
+}
+
+
+
+
+
+/* for mobile screens */
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+
+    .cardd{
+        margin: auto;
+        margin-bottom: 6rem;
+        /* margin-left: 15%; */
+        width: 25rem;
+    }
+
+}

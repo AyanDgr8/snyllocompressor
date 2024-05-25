@@ -1,0 +1,25 @@
+/* src/components/routes/Landing/Ninth/Ninth.css */
+
+
+
+.who{
+    height: auto;
+    position: relative;
+    margin-bottom: 6rem;
+    margin-top: 5rem;
+
+}
+.who-bigger{
+    color: black;
+}
+
+.who-smaller{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.who-content{
+    width: 90%;
+    margin: auto;
+    text-align: left;
+}

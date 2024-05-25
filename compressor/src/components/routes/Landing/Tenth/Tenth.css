@@ -1,0 +1,102 @@
+/* src/components/routes/Landing/Tenth/Tenth.css */
+
+
+
+.cont-snyllo{
+    height: auto;
+    position: relative;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+
+.cont-snyllo-container{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+}
+
+.cont-snyllo-heading{
+    color: black;
+}
+
+
+
+.cont-snyllo-left{
+    width: 40%;
+}
+
+.cont-snyllo-right{
+    width:60%;
+    text-align: left;
+}
+
+
+
+.cont-snyllo-body{
+    text-align: left;
+    margin: auto;
+
+}
+
+.cont-snyllo-para{
+    font-size: large;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.contact-machine{
+    width: 100%;
+}
+
+.btn-conta{
+    margin-bottom: 1rem;
+}
+
+.linkinnn{
+    text-decoration: none;
+    color: red;
+}
+
+.linkinnn:hover{
+    color: brown;
+}
+
+.linkinng{
+    text-decoration: none;
+    margin-left: 10rem;
+    color: red;
+
+}
+.linkinng:hover{
+    color: brown;
+}
+
+
+
+/* for mobile screens */
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+
+
+    .cont-snyllo-container{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    
+    
+    
+    .cont-snyllo-left{
+        width: 100%;
+    }
+    
+    .cont-snyllo-right{
+        width:100%;
+        margin-top: 2rem;
+    }
+
+}

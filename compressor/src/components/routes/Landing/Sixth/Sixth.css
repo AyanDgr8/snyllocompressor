@@ -1,0 +1,52 @@
+/* src/components/routes/Landing/Sixth/Sixth.css */
+
+
+.carddd{
+    width:16rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading-sixth{
+    font-weight: 700;
+    color: black;
+}
+
+.subheading-sixth{
+    font-weight: 700;
+    color: black;
+}
+
+.ca-te{
+    width:100%;
+    font-size: 0.8rem;
+}
+
+.iconnn{
+    width: 4rem;
+}
+
+
+.two-headings{
+    margin-top: 10%;
+}
+
+.iconn{
+    width: 7rem;
+    height: 5rem;
+}
+
+.titlele{
+    width:110%;
+}
+
+
+/* for mobile screens */
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+    
+    .titlele{
+        width:100%;
+    }
+    
+
+}

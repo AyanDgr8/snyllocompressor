@@ -1,0 +1,134 @@
+/* src/components/routes/Landing/Third/Third.js */
+
+/* .half-half{
+    margin: auto;
+    background-color: maroon;
+    color: white;
+}
+
+.half-links {
+    text-decoration: none;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.lie{
+    justify-content: center;
+    margin: 1rem;
+    color: rgb(205, 205, 205);
+    font-weight: 500;
+
+}
+
+.lie:hover{
+    color: red;
+} */
+
+/* ************ */
+
+.black-white{
+    display: flex;
+    flex-direction:row ;
+    margin: auto;
+    background: linear-gradient(to bottom, maroon 45%, rgb(58, 0, 0) 75%);
+
+}
+
+.half-left{
+    width: 50%;
+}
+
+
+.half-para{
+    color: white;
+    font-size: 2.25rem;
+    text-align: left;
+    margin: 3rem;
+    width: 80%;
+}
+
+.half-linkss{
+    display: flex;
+    flex-direction:column ;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.loo{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+
+}
+
+.half-right{
+    width:50%
+}
+
+.sny15{
+    width: 80rem;
+}
+
+
+
+
+/* for mobile screens */
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+
+/* 
+    .half-links {
+        text-align: left;
+        flex-direction: column;
+        margin: auto;
+        margin-left: 5rem;
+    }
+
+    .gasss{
+        margin-left: 0;
+    } */
+
+
+    /* ************ */
+
+    .black-white{
+        flex-direction:column-reverse ;
+
+    }
+
+    .half-left{
+        width: 100%;
+    }
+
+
+    .half-para{
+        font-size: 2rem;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    .half-linkss{
+        text-align: left;
+        margin-left: 5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .loo{
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+
+    .half-right{
+        width:100%
+    }
+
+    .sny15{
+        width: 25rem;
+        margin: auto;
+    }
+
+}
